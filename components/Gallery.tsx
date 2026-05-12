@@ -7,41 +7,44 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
+const BASE = 'https://images.unsplash.com/photo-';
+const Q = '?w=900&h=680&q=85&auto=format&fit=crop';
+
 const items = [
   {
     label: 'Cucina',
     title: 'The Art of Italian Cooking',
-    img: '/images/gallery-chef.jpg',
+    img: `${BASE}1556909114-f6e7ad7d3136${Q}`,
     size: 'lg:col-span-2 lg:row-span-2',
   },
   {
     label: 'Cantina',
     title: 'Over 800 Fine Wines',
-    img: '/images/gallery-wine-cellar.jpg',
+    img: `${BASE}1510626176961-4b57d4fbad03${Q}`,
     size: 'lg:col-span-1 lg:row-span-1',
   },
   {
     label: 'Dolci',
     title: 'Handcrafted Desserts',
-    img: '/images/tiramisu.jpg',
+    img: `${BASE}1571877227200-a0d98ea607e9${Q}`,
     size: 'lg:col-span-1 lg:row-span-1',
   },
   {
     label: 'Sala',
     title: 'Private Dining Rooms',
-    img: '/images/gallery-dining-room.jpg',
+    img: `${BASE}1559339352-11d035aa65de${Q}`,
     size: 'lg:col-span-1 lg:row-span-2',
   },
   {
     label: 'Pasta',
     title: 'Fresh Pasta Daily',
-    img: '/images/tagliatelle-tartufo.jpg',
+    img: `${BASE}1574071318508-1cdbab80d002${Q}`,
     size: 'lg:col-span-1 lg:row-span-1',
   },
   {
     label: 'Ambiente',
     title: 'Intimate Evenings',
-    img: '/images/gallery-ambiance.jpg',
+    img: `${BASE}1517244683847-7456b63c5969${Q}`,
     size: 'lg:col-span-2 lg:row-span-1',
   },
 ];

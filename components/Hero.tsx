@@ -39,7 +39,7 @@ export default function Hero() {
     >
       {/* Hero background photo */}
       <Image
-        src="/images/hero-bg.jpg"
+        src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&h=1080&q=85&auto=format&fit=crop"
         alt="La Bella Roma restaurant interior"
         fill
         priority
