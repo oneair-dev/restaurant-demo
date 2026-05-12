@@ -11,37 +11,37 @@ const items = [
   {
     label: 'Cucina',
     title: 'The Art of Italian Cooking',
-    img: 'https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=800&q=80',
+    img: '/images/gallery-chef.jpg',
     size: 'lg:col-span-2 lg:row-span-2',
   },
   {
     label: 'Cantina',
     title: 'Over 800 Fine Wines',
-    img: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80',
+    img: '/images/gallery-wine-cellar.jpg',
     size: 'lg:col-span-1 lg:row-span-1',
   },
   {
     label: 'Dolci',
     title: 'Handcrafted Desserts',
-    img: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&q=80',
+    img: '/images/tiramisu.jpg',
     size: 'lg:col-span-1 lg:row-span-1',
   },
   {
     label: 'Sala',
     title: 'Private Dining Rooms',
-    img: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80',
+    img: '/images/gallery-dining-room.jpg',
     size: 'lg:col-span-1 lg:row-span-2',
   },
   {
     label: 'Pasta',
     title: 'Fresh Pasta Daily',
-    img: 'https://images.unsplash.com/photo-1551183053-bf91798d792e?w=800&q=80',
+    img: '/images/tagliatelle-tartufo.jpg',
     size: 'lg:col-span-1 lg:row-span-1',
   },
   {
     label: 'Ambiente',
     title: 'Intimate Evenings',
-    img: 'https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=800&q=80',
+    img: '/images/gallery-ambiance.jpg',
     size: 'lg:col-span-2 lg:row-span-1',
   },
 ];

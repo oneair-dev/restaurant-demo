@@ -156,7 +156,7 @@ export default function Testimonials() {
                 className="absolute top-4 right-6 text-7xl leading-none opacity-[0.06] select-none"
                 style={{ color: '#8B0000', fontFamily: 'var(--font-playfair)' }}
               >
-                "
+                &quot;
               </span>
 
               <Stars count={t.rating} />
@@ -165,7 +165,7 @@ export default function Testimonials() {
                 className="text-sm leading-relaxed mb-6 italic"
                 style={{ color: 'rgba(28, 10, 0, 0.75)', fontFamily: 'var(--font-playfair)' }}
               >
-                "{t.quote}"
+                &quot;{t.quote}&quot;
               </p>
 
               <div className="h-px mb-5" style={{ background: 'rgba(212, 175, 55, 0.3)' }} />

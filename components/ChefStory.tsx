@@ -57,7 +57,7 @@ export default function ChefStory() {
           <div ref={imgRef} className="relative">
             <div className="relative aspect-[4/5] overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1583394293214-28a4b6f8c5f5?w=900&q=80"
+                src="/images/gallery-chef.jpg"
                 alt="Chef Marco Rinaldi"
                 fill
                 className="object-cover object-center"
@@ -126,7 +126,7 @@ export default function ChefStory() {
               style={{ color: 'rgba(28, 10, 0, 0.72)', fontFamily: 'var(--font-lato)' }}
             >
               Born in the sun-drenched hills of Tuscany, Marco Rinaldi grew up surrounded by the
-              rhythms of the Italian kitchen — his grandmother's hand-rolled pici, the earthy
+              rhythms of the Italian kitchen — his grandmother&apos;s hand-rolled pici, the earthy
               perfume of truffle season, the unhurried ritual of the Sunday table. These early
               memories became the foundation of a culinary philosophy rooted in simplicity,
               reverence for the land, and an uncompromising pursuit of flavour.
@@ -151,8 +151,8 @@ export default function ChefStory() {
                 className="text-lg italic leading-relaxed mb-3"
                 style={{ color: '#8B0000', fontFamily: 'var(--font-playfair)' }}
               >
-                "Great Italian cooking is not about complexity — it is about honesty. The best
-                ingredient, treated with respect, needs nothing more."
+                &quot;Great Italian cooking is not about complexity — it is about honesty. The best
+                ingredient, treated with respect, needs nothing more.&quot;
               </p>
               <cite
                 className="text-xs tracking-widest uppercase not-italic"
