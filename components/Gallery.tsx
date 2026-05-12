@@ -7,44 +7,41 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const BASE = 'https://images.unsplash.com/photo-';
-const Q = '?w=900&h=680&q=85&auto=format&fit=crop';
-
 const items = [
   {
     label: 'Cucina',
     title: 'The Art of Italian Cooking',
-    img: `${BASE}1556909114-f6e7ad7d3136${Q}`,
+    img: 'https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=800&q=80',
     size: 'lg:col-span-2 lg:row-span-2',
   },
   {
     label: 'Cantina',
     title: 'Over 800 Fine Wines',
-    img: `${BASE}1510626176961-4b57d4fbad03${Q}`,
+    img: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80',
     size: 'lg:col-span-1 lg:row-span-1',
   },
   {
     label: 'Dolci',
     title: 'Handcrafted Desserts',
-    img: `${BASE}1571877227200-a0d98ea607e9${Q}`,
+    img: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&q=80',
     size: 'lg:col-span-1 lg:row-span-1',
   },
   {
     label: 'Sala',
     title: 'Private Dining Rooms',
-    img: `${BASE}1559339352-11d035aa65de${Q}`,
+    img: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80',
     size: 'lg:col-span-1 lg:row-span-2',
   },
   {
     label: 'Pasta',
     title: 'Fresh Pasta Daily',
-    img: `${BASE}1574071318508-1cdbab80d002${Q}`,
+    img: 'https://images.unsplash.com/photo-1551183053-bf91798d792e?w=800&q=80',
     size: 'lg:col-span-1 lg:row-span-1',
   },
   {
     label: 'Ambiente',
     title: 'Intimate Evenings',
-    img: `${BASE}1517244683847-7456b63c5969${Q}`,
+    img: 'https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=800&q=80',
     size: 'lg:col-span-2 lg:row-span-1',
   },
 ];
