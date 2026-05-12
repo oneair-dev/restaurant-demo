@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Menu from "@/components/Menu";
+import ChefStory from "@/components/ChefStory";
 import Gallery from "@/components/Gallery";
 import Testimonials from "@/components/Testimonials";
 import Reservation from "@/components/Reservation";
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Menu />
+      <ChefStory />
       <Gallery />
       <Testimonials />
       <Reservation />
